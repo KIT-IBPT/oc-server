@@ -50,7 +50,7 @@
       <distributionManagement>
       <site>
         <id>github</id>
-        <url>scm:git:ssh://git@github.com/KIT-IBPT/epics-cs-shell-flute.git</url>
+        <url>scm:git:ssh://git@github.com/KIT-IBPT/oc-server.git</url>
       </site>
       </distributionManagement>
       <build>
