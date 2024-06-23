@@ -42,7 +42,7 @@
     <profile>
       <id>github</id>
       <properties>
-        <csshellSource>https://github.com/KIT-IBPT/epics-cs-shell-flute</csshellSource>
+        <ocserverSource>https://github.com/KIT-IBPT/oc-server</ocserverSource>
         <csshellLink>https://kit-ibpt.github.io/epics-cs-shell/</csshellLink>
         <csshellLinkFlute>https://kit-ibpt.github.io/epics-cs-shell-flute/</csshellLinkFlute>
         <ocserverLink>https://kit-ibpt.github.io/oc-server/</ocserverLink>

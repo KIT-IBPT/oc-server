@@ -16,16 +16,16 @@ public interface IAutomaticOCModel extends IConfigurable {
 	String getName();
 
 	/**
-	 * Executes the AOC operation, called from execution thread started by {@link si.ijs.anka.databush2.correction.automatic.AutomaticOrbitCorrectionOperator}.
+	 * Executes the AOC operation, called from execution thread started by {@link AutomaticOrbitCorrectionOperator}.
 	 *
-	 * @param operator a {@link org.scictrl.mp.orbitcorrect.correction.automatic.AutomaticOrbitCorrectionOperator} object
+	 * @param operator a {@link AutomaticOrbitCorrectionOperator} object
 	 */
 	void executeContinuous(AutomaticOrbitCorrectionOperator operator);
 
 	/**
 	 * <p>
 	 * Executes the AOC operation, called from execution thread started by
-	 * {@link si.ijs.anka.databush2.correction.automatic.AutomaticOrbitCorrectionOperator}.
+	 * {@link AutomaticOrbitCorrectionOperator}.
 	 * </p>
 	 * <p>
 	 * The correction loop is performed until correction model decided that can
@@ -37,7 +37,7 @@ public interface IAutomaticOCModel extends IConfigurable {
 	 *                 then 0, then there is no step limit and loop is executed till
 	 *                 end, if more than 0, then can go deeper for given count.
 	 * @param operator a
-	 *                 {@link org.scictrl.mp.orbitcorrect.correction.automatic.AutomaticOrbitCorrectionOperator}
+	 *                 {@link AutomaticOrbitCorrectionOperator}
 	 *                 object
 	 * @param dryRun   a boolean
 	 */
