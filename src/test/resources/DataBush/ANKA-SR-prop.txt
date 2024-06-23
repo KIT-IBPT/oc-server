@@ -1,0 +1,3 @@
+# Property required by magnet calibration calculator
+
+dbcalculatormodelfactory.calibration_file_url=cal/calibration.txt

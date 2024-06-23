@@ -1,0 +1,141 @@
+<element="dbinfo" name="T:SR:BeamInfo:01" virtual=true energy=0.504688564218365 efrombend=true orbitclosed=true betax=15.713574300036147 betaz=10.019663928134596 alphax=1.5144389541029294E-13 alphaz=2.908562459501505E-13 d=-0.010339088712622709 dp=-0.002685774591650302 >
+
+<element="powersupply" name="PBEND_S.01" virtual=false current=123.24406805523766 >
+<element="powersupply" name="PQ1_S.01" virtual=false current=64.39917601281758 >
+<element="powersupply" name="PQ2_S.01" virtual=false current=63.20286869611658 >
+<element="powersupply" name="PQ3_S.01" virtual=false current=57.602197299153126 >
+<element="powersupply" name="PQ4_S.01" virtual=false current=64.00244144350347 >
+<element="powersupply" name="PQ5_S.01" virtual=false current=63.59960326543069 >
+<element="powersupply" name="PCV_S1.01" virtual=false current=0.027924010070954353 >
+<element="powersupply" name="PCV_S1.02" virtual=false current=0.09811551079575809 >
+<element="powersupply" name="PCV_S1.03" virtual=false current=0.05300984206912318 >
+<element="powersupply" name="PCV_S1.04" virtual=false current=0.08175783932249958 >
+<element="powersupply" name="PCV_S2.01" virtual=false current=0.10000762951094844 >
+<element="powersupply" name="PCV_S2.02" virtual=false current=0.07400625619897783 >
+<element="powersupply" name="PCV_S2.03" virtual=false current=0.07669184405279639 >
+<element="powersupply" name="PCV_S2.04" virtual=false current=0.11001754787518125 >
+<element="powersupply" name="PCV_S3.01" virtual=false current=0.01327534905012584 >
+<element="powersupply" name="PCV_S3.02" virtual=false current=0.137972075989929 >
+<element="powersupply" name="PCV_S3.03" virtual=false current=0.04336614023041108 >
+<element="powersupply" name="PCV_S3.04" virtual=false current=0.10000762951094844 >
+<element="powersupply" name="PCV_S4.01" virtual=false current=0.043793392843518575 >
+<element="powersupply" name="PCV_S4.02" virtual=false current=0.12002746623941407 >
+<element="powersupply" name="PCV_S4.03" virtual=false current=0.05288776989394961 >
+<element="powersupply" name="PCV_S4.04" virtual=false current=-0.03457694361791419 >
+<element="powersupply" name="PCH_S1.01" virtual=false current=0.06486610208285648 >
+<element="powersupply" name="PCH_S1.02" virtual=false current=0.014847028305485566 >
+<element="powersupply" name="PCH_S1.03" virtual=false current=0.16142519264515154 >
+<element="powersupply" name="PCH_S1.04" virtual=false current=0.1089951934081026 >
+<element="powersupply" name="PCH_S1.06" virtual=false current=0.1947508964675364 >
+<element="powersupply" name="PCH_S1.07" virtual=false current=0.06007476920729382 >
+<element="powersupply" name="PCH_S1.08" virtual=false current=-0.0022735942626077588 >
+<element="powersupply" name="PCH_S2.01" virtual=false current=0.11454947737850008 >
+<element="powersupply" name="PCH_S2.02" virtual=false current=0.08125429159990838 >
+<element="powersupply" name="PCH_S2.03" virtual=false current=0.07869077592126339 >
+<element="powersupply" name="PCH_S2.04" virtual=false current=0.1089951934081026 >
+<element="powersupply" name="PCH_S2.06" virtual=false current=0.0832684824902723 >
+<element="powersupply" name="PCH_S2.07" virtual=false current=0.04396124208438246 >
+<element="powersupply" name="PCH_S2.08" virtual=false current=-0.001998931868467224 >
+<element="powersupply" name="PCH_S3.01" virtual=false current=0.06553749904631112 >
+<element="powersupply" name="PCH_S3.02" virtual=false current=0.08567940794995033 >
+<element="powersupply" name="PCH_S3.03" virtual=false current=0.022507057297627142 >
+<element="powersupply" name="PCH_S3.04" virtual=false current=0.06288242923628595 >
+<element="powersupply" name="PCH_S3.06" virtual=false current=0.08766308079652085 >
+<element="powersupply" name="PCH_S3.07" virtual=false current=0.022842755779354462 >
+<element="powersupply" name="PCH_S3.08" virtual=false current=0.0446326390478371 >
+<element="powersupply" name="PCH_S4.01" virtual=false current=0.021011673151750898 >
+<element="powersupply" name="PCH_S4.02" virtual=false current=0.0752727550164034 >
+<element="powersupply" name="PCH_S4.03" virtual=false current=0.07701228351262679 >
+<element="powersupply" name="PCH_S4.04" virtual=false current=0.022781719691767677 >
+<element="powersupply" name="PCH_S4.06" virtual=false current=0.1926756694895857 >
+<element="powersupply" name="PCH_S4.07" virtual=false current=-0.030441748683909364 >
+<element="powersupply" name="PCH_S4.08" virtual=false current=0.0272983901731898 >
+
+<element="marker" name="QUADR_S1.01" virtual=true position=0.0 relposition=-1.0 relfrom="" >
+<element="marker" name="MARK_S1.01" virtual=true position=13.8 relposition=6.058 relfrom="MQ3_S1.01" >
+<element="marker" name="QUADR_S2.01" virtual=true position=27.6 relposition=7.742 relfrom="MQ3_S1.02" >
+<element="marker" name="MARK_S2.01" virtual=true position=41.4 relposition=6.058 relfrom="MQ3_S2.01" >
+<element="marker" name="QUADR_S3.01" virtual=true position=55.199999999999996 relposition=7.742 relfrom="MQ3_S2.02" >
+<element="marker" name="MARK_S3.01" virtual=true position=69.0 relposition=6.058 relfrom="MQ3_S3.01" >
+<element="marker" name="QUADR_S4.01" virtual=true position=82.8 relposition=7.742 relfrom="MQ3_S3.02" >
+<element="marker" name="MARK_S4.01" virtual=true position=96.6 relposition=6.058 relfrom="MQ3_S4.01" >
+<element="marker" name="QUADR_S4.02" virtual=true position=110.39999999999999 relposition=7.742 relfrom="MQ3_S4.02" >
+
+<element="bpm" name="T:SR-S4:BPM:10:SA" virtual=false position=1.285 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S1:BPM:01:SA" virtual=false position=3.484 relposition=3.484 relfrom="QUADR_S1.01" >
+<element="bpm" name="T:SR-S1:BPM:02:SA" virtual=false position=6.389 relposition=-1.353 relfrom="MQ3_S1.01" >
+<element="bpm" name="T:SR-S1:BPM:03:SA" virtual=false position=8.777 relposition=1.035 relfrom="MQ3_S1.01" >
+<element="bpm" name="T:SR-S1:BPM:04:SA" virtual=false position=11.492 relposition=-2.308 relfrom="MARK_S1.01" >
+<element="bpm" name="T:SR-S1:BPM:05:SA" virtual=false position=15.600000000000001 relposition=1.8 relfrom="MARK_S1.01" >
+<element="bpm" name="T:SR-S1:BPM:06:SA" virtual=false position=18.505 relposition=-1.353 relfrom="MQ3_S1.02" >
+<element="bpm" name="T:SR-S1:BPM:07:SA" virtual=false position=20.893 relposition=1.035 relfrom="MQ3_S1.02" >
+<element="bpm" name="T:SR-S1:BPM:08:SA" virtual=false position=23.608 relposition=-3.992 relfrom="QUADR_S2.01" >
+<element="bpm" name="T:SR-S1:BPM:09:SA" virtual=false position=26.175 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S1:BPM:10:SA" virtual=false position=29.025 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S2:BPM:01:SA" virtual=false position=31.084000000000003 relposition=3.484 relfrom="QUADR_S2.01" >
+<element="bpm" name="T:SR-S2:BPM:02:SA" virtual=false position=33.989 relposition=-1.353 relfrom="MQ3_S2.01" >
+<element="bpm" name="T:SR-S2:BPM:03:SA" virtual=false position=36.376999999999995 relposition=1.035 relfrom="MQ3_S2.01" >
+<element="bpm" name="T:SR-S2:BPM:04:SA" virtual=false position=39.092 relposition=-2.308 relfrom="MARK_S2.01" >
+<element="bpm" name="T:SR-S2:BPM:05:SA" virtual=false position=43.199999999999996 relposition=1.8 relfrom="MARK_S2.01" >
+<element="bpm" name="T:SR-S2:BPM:06:SA" virtual=false position=46.105 relposition=-1.353 relfrom="MQ3_S2.02" >
+<element="bpm" name="T:SR-S2:BPM:07:SA" virtual=false position=48.492999999999995 relposition=1.035 relfrom="MQ3_S2.02" >
+<element="bpm" name="T:SR-S2:BPM:08:SA" virtual=false position=51.208 relposition=-3.992 relfrom="QUADR_S3.01" >
+<element="bpm" name="T:SR-S2:BPM:09:SA" virtual=false position=53.995 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S2:BPM:10:SA" virtual=false position=56.485 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S3:BPM:01:SA" virtual=false position=58.684 relposition=3.484 relfrom="QUADR_S3.01" >
+<element="bpm" name="T:SR-S3:BPM:02:SA" virtual=false position=61.58899999999999 relposition=-1.353 relfrom="MQ3_S3.01" >
+<element="bpm" name="T:SR-S3:BPM:03:SA" virtual=false position=63.97699999999999 relposition=1.035 relfrom="MQ3_S3.01" >
+<element="bpm" name="T:SR-S3:BPM:04:SA" virtual=false position=66.69200000000001 relposition=-2.308 relfrom="MARK_S3.01" >
+<element="bpm" name="T:SR-S3:BPM:05:SA" virtual=false position=70.8 relposition=1.8 relfrom="MARK_S3.01" >
+<element="bpm" name="T:SR-S3:BPM:06:SA" virtual=false position=73.705 relposition=-1.353 relfrom="MQ3_S3.02" >
+<element="bpm" name="T:SR-S3:BPM:07:SA" virtual=false position=76.09299999999999 relposition=1.035 relfrom="MQ3_S3.02" >
+<element="bpm" name="T:SR-S3:BPM:08:SA" virtual=false position=78.80799999999999 relposition=-3.992 relfrom="QUADR_S4.01" >
+<element="bpm" name="T:SR-S3:BPM:09:SA" virtual=false position=81.376 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S3:BPM:10:SA" virtual=false position=84.664 relposition=-1.0 relfrom="" >
+<element="bpm" name="T:SR-S4:BPM:01:SA" virtual=false position=86.28399999999999 relposition=3.484 relfrom="QUADR_S4.01" >
+<element="bpm" name="T:SR-S4:BPM:03:SA" virtual=false position=91.577 relposition=1.035 relfrom="MQ3_S4.01" >
+<element="bpm" name="T:SR-S4:BPM:05:SA" virtual=false position=98.39999999999999 relposition=1.8 relfrom="MARK_S4.01" >
+<element="bpm" name="T:SR-S4:BPM:06:SA" virtual=false position=101.30499999999999 relposition=-1.353 relfrom="MQ3_S4.02" >
+<element="bpm" name="T:SR-S4:BPM:07:SA" virtual=false position=103.69299999999998 relposition=1.035 relfrom="MQ3_S4.02" >
+<element="bpm" name="T:SR-S4:BPM:08:SA" virtual=false position=106.40799999999999 relposition=-3.992 relfrom="QUADR_S4.02" >
+<element="bpm" name="T:SR-S4:BPM:09:SA" virtual=false position=109.195 relposition=-1.0 relfrom="" >
+
+
+
+
+
+<element="horcorrector" name="MCH_S1.01" virtual=false position=1.708 relposition=1.708 relfrom="QUADR_S1.01" length=0.108 ps="PCH_S1.01" calibrationentry="CH" angle=0.4219543246933073 >
+<element="horcorrector" name="MCH_S1.02" virtual=false position=6.742 relposition=-1.0 relfrom="MQ3_S1.01" length=0.108 ps="PCH_S1.02" calibrationentry="CH" angle=0.09657999480747743 >
+<element="horcorrector" name="MCH_S1.03" virtual=false position=8.542 relposition=0.8 relfrom="MQ3_S1.01" length=0.108 ps="PCH_S1.03" calibrationentry="CH" angle=1.0500717009951779 >
+<element="horcorrector" name="MCH_S1.04" virtual=false position=12.850000000000001 relposition=-0.95 relfrom="MARK_S1.01" length=0.108 ps="PCH_S1.04" calibrationentry="CH" angle=0.7090142887048448 >
+<element="horcorrector" name="MCH_S1.06" virtual=false position=18.858 relposition=-1.0 relfrom="MQ3_S1.02" length=0.108 ps="PCH_S1.06" calibrationentry="CH" angle=1.2668555742321055 >
+<element="horcorrector" name="MCH_S1.07" virtual=false position=20.658 relposition=0.8 relfrom="MQ3_S1.02" length=0.108 ps="PCH_S1.07" calibrationentry="CH" angle=0.390786679914738 >
+<element="horcorrector" name="MCH_S1.08" virtual=false position=24.966 relposition=-2.634 relfrom="QUADR_S2.01" length=0.108 ps="PCH_S1.08" calibrationentry="CH" angle=-0.014789742267537653 >
+<element="horcorrector" name="MCH_S2.01" virtual=false position=29.308 relposition=1.708 relfrom="QUADR_S2.01" length=0.108 ps="PCH_S2.01" calibrationentry="CH" angle=0.7451449342443329 >
+<element="horcorrector" name="MCH_S2.02" virtual=false position=34.342 relposition=-1.0 relfrom="MQ3_S2.01" length=0.108 ps="PCH_S2.02" calibrationentry="CH" angle=0.5285595810378404 >
+<element="horcorrector" name="MCH_S2.03" virtual=false position=36.141999999999996 relposition=0.8 relfrom="MQ3_S2.01" length=0.108 ps="PCH_S2.03" calibrationentry="CH" angle=0.5118838984811537 >
+<element="horcorrector" name="MCH_S2.04" virtual=false position=40.449999999999996 relposition=-0.95 relfrom="MARK_S2.01" length=0.108 ps="PCH_S2.04" calibrationentry="CH" angle=0.7090142887048448 >
+<element="horcorrector" name="MCH_S2.06" virtual=false position=46.458 relposition=-1.0 relfrom="MQ3_S2.02" length=0.108 ps="PCH_S2.06" calibrationentry="CH" angle=0.5416619030466657 >
+<element="horcorrector" name="MCH_S2.07" virtual=false position=48.257999999999996 relposition=0.8 relfrom="MQ3_S2.02" length=0.108 ps="PCH_S2.07" calibrationentry="CH" angle=0.28596810384413557 >
+<element="horcorrector" name="MCH_S2.08" virtual=false position=52.565999999999995 relposition=-2.634 relfrom="QUADR_S3.01" length=0.108 ps="PCH_S2.08" calibrationentry="CH" angle=-0.013003061993606931 >
+<element="horcorrector" name="MCH_S3.01" virtual=false position=56.907999999999994 relposition=1.708 relfrom="QUADR_S3.01" length=0.108 ps="PCH_S3.01" calibrationentry="CH" angle=0.4263217653629157 >
+<element="horcorrector" name="MCH_S3.02" virtual=false position=61.94199999999999 relposition=-1.0 relfrom="MQ3_S3.01" length=0.108 ps="PCH_S3.02" calibrationentry="CH" angle=0.5573449854511687 >
+<element="horcorrector" name="MCH_S3.03" virtual=false position=63.74199999999999 relposition=0.8 relfrom="MQ3_S3.01" length=0.108 ps="PCH_S3.03" calibrationentry="CH" angle=0.14640852244710093 >
+<element="horcorrector" name="MCH_S3.04" virtual=false position=68.05 relposition=-0.95 relfrom="MARK_S3.01" length=0.108 ps="PCH_S3.04" calibrationentry="CH" angle=0.4090505227149187 >
+<element="horcorrector" name="MCH_S3.06" virtual=false position=74.05799999999999 relposition=-1.0 relfrom="MQ3_S3.02" length=0.108 ps="PCH_S3.06" calibrationentry="CH" angle=0.5702487874295573 >
+<element="horcorrector" name="MCH_S3.07" virtual=false position=75.85799999999999 relposition=0.8 relfrom="MQ3_S3.02" length=0.108 ps="PCH_S3.07" calibrationentry="CH" angle=0.14859224278190514 >
+<element="horcorrector" name="MCH_S3.08" virtual=false position=80.166 relposition=-2.634 relfrom="QUADR_S4.01" length=0.108 ps="PCH_S3.08" calibrationentry="CH" angle=0.290335544513744 >
+<element="horcorrector" name="MCH_S4.01" virtual=false position=84.508 relposition=1.708 relfrom="QUADR_S4.01" length=0.108 ps="PCH_S4.01" calibrationentry="CH" angle=0.13668104095570033 >
+<element="horcorrector" name="MCH_S4.02" virtual=false position=89.542 relposition=-1.0 relfrom="MQ3_S4.01" length=0.108 ps="PCH_S4.02" calibrationentry="CH" angle=0.489649655072238 >
+<element="horcorrector" name="MCH_S4.03" virtual=false position=91.342 relposition=0.8 relfrom="MQ3_S4.01" length=0.108 ps="PCH_S4.03" calibrationentry="CH" angle=0.5009652968071326 >
+<element="horcorrector" name="MCH_S4.04" virtual=false position=95.64999999999999 relposition=-0.95 relfrom="MARK_S4.01" length=0.108 ps="PCH_S4.04" calibrationentry="CH" angle=0.14819520272103168 >
+<element="horcorrector" name="MCH_S4.06" virtual=false position=101.65799999999999 relposition=-1.0 relfrom="MQ3_S4.02" length=0.108 ps="PCH_S4.06" calibrationentry="CH" angle=1.2533562121624067 >
+<element="horcorrector" name="MCH_S4.07" virtual=false position=103.45799999999998 relposition=0.8 relfrom="MQ3_S4.02" length=0.108 ps="PCH_S4.07" calibrationentry="CH" angle=-0.19802373036065588 >
+<element="horcorrector" name="MCH_S4.08" virtual=false position=107.76599999999999 relposition=-2.634 relfrom="QUADR_S4.02" length=0.108 ps="PCH_S4.08" calibrationentry="CH" angle=0.1775761672256702 >
+
+<element="vercorrector" name="MCV_S1.01" virtual=false position=3.299 relposition=3.299 relfrom="QUADR_S1.01" length=0.108 ps="PCV_S1.01" calibrationentry="CV2" angle=0.08299382935560015 >
+<element="vercorrector" name="MCV_S1.02" virtual=false position=12.065000000000001 relposition=-1.735 relfrom="MARK_S1.01" length=0.108 ps="PCV_S1.02" calibrationentry="CV1" angle=0.29161219822760187 >
+<element="vercorrector" name="MCV_S1.03" virtual=false position=15.415000000000001 relposition=1.615 relfrom="MARK_S1.01" length=0.108 ps="PCV_S1.03" calibrationentry="CV2" angle=0.1575522203176803 >
+<element="vercorrector" name="MCV_S1.04" virtual=false position=24.181 relposition=-3.419 relfrom="QUADR_S2.01" length=0.108 ps="PCV_S1.04" calibrationentry="CV1" angle=0.2429950479165618 >
+<element="vercorrector" name="MCV_S2.01" virtual=false position=30.899 relposition=3.299 relfrom="QUADR_S2.01" length=0.108 ps="PCV_S2.01" calibrationentry="CV2" angle=0.2972358238232819 >
+<element="vercorrector" name="MCV_S2.02" virtual=false position=39.665 relposition=-1.735 relfrom="MARK_S2.01" length=0.108 ps="PCV_S2.02" calibrationentry="CV1" angle=0.21995632370200174

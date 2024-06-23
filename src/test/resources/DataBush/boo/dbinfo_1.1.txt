@@ -1,0 +1,1 @@
+<element="dbinfo" name="INFO_B.01" virtual=true energy=0.5 calibrationfile="cal/calibration_B.txt" efrombend=true orbitclosed=true >

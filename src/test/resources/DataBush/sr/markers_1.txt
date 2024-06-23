@@ -1,0 +1,8 @@
+<template=marker virtual= true >
+
+<element=marker name="inj_point" position=0.0 relposition=-1.0 relfrom="" >
+<element=marker name="quadr1" position=13.411 relposition=-1.0 relfrom="" >
+<element=marker name="quadr2" position=41.011 relposition=-1.0 relfrom="" >
+<element=marker name="quadr3" position=68.611 relposition=-1.0 relfrom="" >
+<element=marker name="quadr4" position=96.211 relposition=-1.0 relfrom="" >
+<element=marker name="end_point" position=110.4 relposition=-1.0 relfrom="" >

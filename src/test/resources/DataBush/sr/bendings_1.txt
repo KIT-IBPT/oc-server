@@ -1,0 +1,24 @@
+// bending magnets with it's power supply
+
+<template=rbending virtual= false ps="PBEND_S.01" calibrationentry="B" energy=2.5 >
+
+<element=rbending name="MBEND_S1.01" position=-1.0 relposition=101.4015 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S1.02" position=-1.0 relposition=106.5045 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S1.03" position=-1.0 relposition=3.1175 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S1.04" position=-1.0 relposition=8.2205 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S2.01" position=-1.0 relposition=18.6015 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S2.02" position=-1.0 relposition=23.7045 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S2.03" position=-1.0 relposition=30.7175 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S2.04" position=-1.0 relposition=35.8205 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S3.01" position=-1.0 relposition=46.2015 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S3.02" position=-1.0 relposition=51.3045 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S3.03" position=-1.0 relposition=58.3175 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S3.04" position=-1.0 relposition=63.4205 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S4.01" position=-1.0 relposition=73.8015 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S4.02" position=-1.0 relposition=78.9045 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S4.03" position=-1.0 relposition=85.9175 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+<element=rbending name="MBEND_S4.04" position=-1.0 relposition=91.0205 relfrom="inj_point" length=2.183144 radius=5.559330545302604 >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PBEND_S.01" >

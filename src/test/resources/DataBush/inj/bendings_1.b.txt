@@ -1,0 +1,10 @@
+// bending magnets with it's power supply
+
+<template=rbending virtual= false ps="PBEND_I.01" calibrationentry="B" energy=0.053 length=0.2356 radius=0.3 >
+
+<element=rbending name="MBEND_I.01" position=-1.0 relposition=1.5063 relfrom="MARK_I-START" >
+<element=rbending name="MBEND_I.02" position=-1.0 relposition=2.0719 relfrom="MARK_I-START" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PBEND_I.01" >

@@ -1,0 +1,1 @@
+<element="dbinfo" name="A:SR:BeamInfo:01" virtual=true energy=2.5 calibrationfile="cal/calibration.txt" efrombend=true >

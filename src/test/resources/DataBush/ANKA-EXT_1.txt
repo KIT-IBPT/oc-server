@@ -1,0 +1,10 @@
+// basic configuration, only bends and quadrupoles
+<DBINPUT
+"ext/dbinfo_1.txt"
+"ext/markers_1.txt"
+"ext/bendings_1.txt"
+"ext/quadrupoles_1.txt"
+>
+<PROPERTIES
+"ANKA-EXT-prop.txt"
+>

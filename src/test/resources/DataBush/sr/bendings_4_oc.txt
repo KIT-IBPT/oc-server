@@ -1,0 +1,27 @@
+// bending magnets with it's power supply
+
+<template=rbending virtual= false ps="A:SR:PS:MB-01" calibrationentry="B" energy=2.5 length=2.183 radius=5.55896385231 leftwedge=0.17 rightwedge=0.17 >
+
+<element=rbending name="MBEND_S1.01" position=-1.0 relposition=5.1905 relfrom="QUADR_S1.01" >
+<element=rbending name="MBEND_S1.02" position=-1.0 relposition=2.5515 relfrom="MQ3_S1.01" >
+<element=rbending name="MBEND_S1.03" position=-1.0 relposition=3.5065 relfrom="MARK_S1.01" >
+<element=rbending name="MBEND_S1.04" position=-1.0 relposition=2.5515 relfrom="MQ3_S1.02" >
+
+<element=rbending name="MBEND_S2.01" position=-1.0 relposition=5.1905 relfrom="QUADR_S2.01" >
+<element=rbending name="MBEND_S2.02" position=-1.0 relposition=2.5515 relfrom="MQ3_S2.01" >
+<element=rbending name="MBEND_S2.03" position=-1.0 relposition=3.5065 relfrom="MARK_S2.01" >
+<element=rbending name="MBEND_S2.04" position=-1.0 relposition=2.5515 relfrom="MQ3_S2.02" >
+
+<element=rbending name="MBEND_S3.01" position=-1.0 relposition=5.1905 relfrom="QUADR_S3.01" >
+<element=rbending name="MBEND_S3.02" position=-1.0 relposition=2.5515 relfrom="MQ3_S3.01" >
+<element=rbending name="MBEND_S3.03" position=-1.0 relposition=3.5065 relfrom="MARK_S3.01" >
+<element=rbending name="MBEND_S3.04" position=-1.0 relposition=2.5515 relfrom="MQ3_S3.02" >
+
+<element=rbending name="MBEND_S4.01" position=-1.0 relposition=5.1905 relfrom="QUADR_S4.01" >
+<element=rbending name="MBEND_S4.02" position=-1.0 relposition=2.5515 relfrom="MQ3_S4.01" >
+<element=rbending name="MBEND_S4.03" position=-1.0 relposition=3.5065 relfrom="MARK_S4.01" >
+<element=rbending name="MBEND_S4.04" position=-1.0 relposition=2.5515 relfrom="MQ3_S4.02" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="A:SR:PS:MB-01" >

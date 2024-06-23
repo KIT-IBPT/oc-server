@@ -1,0 +1,45 @@
+<template=bpm virtual= false >
+
+<element=bpm name="A:SR-S1:BPM:01" position=-1.0 relposition=3.484 relfrom="QUADR_S1.01" >
+<element=bpm name="A:SR-S1:BPM:02" position=-1.0 relposition=-1.353 relfrom="MQ3_S1.01" >
+<element=bpm name="A:SR-S1:BPM:03" position=-1.0 relposition=1.035 relfrom="MQ3_S1.01" >
+<element=bpm name="A:SR-S1:BPM:04" position=-1.0 relposition=-2.308 relfrom="MARK_S1.01" >
+<element=bpm name="A:SR-S1:BPM:05" position=-1.0 relposition=1.800 relfrom="MARK_S1.01" >
+<element=bpm name="A:SR-S1:BPM:06" position=-1.0 relposition=-1.353 relfrom="MQ3_S1.02" >
+<element=bpm name="A:SR-S1:BPM:07" position=-1.0 relposition=1.035 relfrom="MQ3_S1.02" >
+<element=bpm name="A:SR-S1:BPM:08" position=-1.0 relposition=-3.992 relfrom="QUADR_S2.01" >
+<element=bpm name="A:SR-S1:BPM:09" position=26.175 >
+<element=bpm name="A:SR-S1:BPM:10" position=29.025 >
+
+<element=bpm name="A:SR-S2:BPM:01" position=-1.0 relposition=3.484 relfrom="QUADR_S2.01" >
+<element=bpm name="A:SR-S2:BPM:02" position=-1.0 relposition=-1.353 relfrom="MQ3_S2.01" >
+<element=bpm name="A:SR-S2:BPM:03" position=-1.0 relposition=1.035 relfrom="MQ3_S2.01" >
+<element=bpm name="A:SR-S2:BPM:04" position=-1.0 relposition=-2.308 relfrom="MARK_S2.01" >
+<element=bpm name="A:SR-S2:BPM:05" position=-1.0 relposition=1.800 relfrom="MARK_S2.01" >
+<element=bpm name="A:SR-S2:BPM:06" position=-1.0 relposition=-1.353 relfrom="MQ3_S2.02" >
+<element=bpm name="A:SR-S2:BPM:07" position=-1.0 relposition=1.035 relfrom="MQ3_S2.02" >
+<element=bpm name="A:SR-S2:BPM:08" position=-1.0 relposition=-3.992 relfrom="QUADR_S3.01" >
+<element=bpm name="A:SR-S2:BPM:09" position=53.776 >
+<element=bpm name="A:SR-S2:BPM:10" position=56.715 >
+
+<element=bpm name="A:SR-S3:BPM:01" position=-1.0 relposition=3.484 relfrom="QUADR_S3.01" >
+<element=bpm name="A:SR-S3:BPM:02" position=-1.0 relposition=-1.353 relfrom="MQ3_S3.01" >
+<element=bpm name="A:SR-S3:BPM:03" position=-1.0 relposition=1.035 relfrom="MQ3_S3.01" >
+<element=bpm name="A:SR-S3:BPM:04" position=-1.0 relposition=-2.308 relfrom="MARK_S3.01" >
+<element=bpm name="A:SR-S3:BPM:05" position=-1.0 relposition=1.800 relfrom="MARK_S3.01" >
+<element=bpm name="A:SR-S3:BPM:06" position=-1.0 relposition=-1.353 relfrom="MQ3_S3.02" >
+<element=bpm name="A:SR-S3:BPM:07" position=-1.0 relposition=1.035 relfrom="MQ3_S3.02" >
+<element=bpm name="A:SR-S3:BPM:08" position=-1.0 relposition=-3.992 relfrom="QUADR_S4.01" >
+<element=bpm name="A:SR-S3:BPM:09" position=80.626 >
+<element=bpm name="A:SR-S3:BPM:10" position=85.399 >
+
+<element=bpm name="A:SR-S4:BPM:01" position=-1.0 relposition=3.484 relfrom="QUADR_S4.01" >
+//<element=bpm name="A:SR-S4:BPM:02" position=-1.0 relposition=-1.353 relfrom="MQ3_S4.01" >
+<element=bpm name="A:SR-S4:BPM:03" position=-1.0 relposition=1.035 relfrom="MQ3_S4.01" >
+<element=bpm name="A:SR-S4:BPM:04" position=-1.0 relposition=-2.308 relfrom="MARK_S4.01" >
+<element=bpm name="A:SR-S4:BPM:05" position=-1.0 relposition=1.800 relfrom="MARK_S4.01" >
+<element=bpm name="A:SR-S4:BPM:06" position=-1.0 relposition=-1.353 relfrom="MQ3_S4.02" >
+<element=bpm name="A:SR-S4:BPM:07" position=-1.0 relposition=1.035 relfrom="MQ3_S4.02" >
+<element=bpm name="A:SR-S4:BPM:08" position=-1.0 relposition=-3.992 relfrom="QUADR_S4.02" >
+<element=bpm name="A:SR-S4:BPM:09" position=108.975 >
+<element=bpm name="A:SR-S4:BPM:10" position=1.428 >

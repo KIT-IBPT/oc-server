@@ -1,0 +1,21 @@
+// quadrupole magnets with it's power supplies
+
+<template=quadrupole virtual= false calibrationentry="Q2" length=0.08 >
+
+<element=quadrupole name="MQ_I.01" position=-1.0 relposition=1.0135 relfrom="MARK_I-START" ps="PQ_I.01" >
+<element=quadrupole name="MQ_I.05" position=-1.0 relposition=2.5647 relfrom="MARK_I-START" ps="PQ_I.05" >
+
+<template=quadrupole virtual= false calibrationentry="Q1" length=0.08 >
+
+<element=quadrupole name="MQ_I.02" position=-1.0 relposition=1.1635 relfrom="MARK_I-START" ps="PQ_I.02" >
+<element=quadrupole name="MQ_I.03" position=-1.0 relposition=1.7891 relfrom="MARK_I-START" ps="PQ_I.03" >
+<element=quadrupole name="MQ_I.04" position=-1.0 relposition=2.4147 relfrom="MARK_I-START" ps="PQ_I.04" >
+
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PQ_I.01" >
+<element=powersupply name="PQ_I.02" >
+<element=powersupply name="PQ_I.03" >
+<element=powersupply name="PQ_I.04" >
+<element=powersupply name="PQ_I.05" >

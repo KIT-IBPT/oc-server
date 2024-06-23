@@ -1,0 +1,63 @@
+// horizontal correcctors with it's power supplies
+
+<template=horcorrector virtual= false calibrationentry="CH" >
+
+<element=horcorrector name="MCH_S1.01" position=-1.0 relposition=98.29 relfrom="inj_point" length=0.108 ps="PCH_S1.01" >
+<element=horcorrector name="MCH_S1.02" position=-1.0 relposition=102.953 relfrom="inj_point" length=0.108 ps="PCH_S1.02" >
+<element=horcorrector name="MCH_S1.03" position=-1.0 relposition=104.753 relfrom="inj_point" length=0.108 ps="PCH_S1.03" >
+<element=horcorrector name="MCH_S1.04" position=-1.0 relposition=109.066 relfrom="inj_point" length=0.108 ps="PCH_S1.04" >
+<element=horcorrector name="MCH_S1.06" position=-1.0 relposition=4.669 relfrom="inj_point" length=0.108 ps="PCH_S1.06" >
+<element=horcorrector name="MCH_S1.07" position=-1.0 relposition=6.469 relfrom="inj_point" length=0.108 ps="PCH_S1.07" >
+<element=horcorrector name="MCH_S1.08" position=-1.0 relposition=10.777 relfrom="inj_point" length=0.108 ps="PCH_S1.08" >
+<element=horcorrector name="MCH_S2.01" position=-1.0 relposition=15.49 relfrom="inj_point" length=0.108 ps="PCH_S2.01" >
+<element=horcorrector name="MCH_S2.02" position=-1.0 relposition=20.153 relfrom="inj_point" length=0.108 ps="PCH_S2.02" >
+<element=horcorrector name="MCH_S2.03" position=-1.0 relposition=21.953 relfrom="inj_point" length=0.108 ps="PCH_S2.03" >
+<element=horcorrector name="MCH_S2.04" position=-1.0 relposition=26.2355 relfrom="inj_point" length=0.108 ps="PCH_S2.04" >
+<element=horcorrector name="MCH_S2.06" position=-1.0 relposition=32.269 relfrom="inj_point" length=0.108 ps="PCH_S2.06" >
+<element=horcorrector name="MCH_S2.07" position=-1.0 relposition=34.069 relfrom="inj_point" length=0.108 ps="PCH_S2.07" >
+<element=horcorrector name="MCH_S2.08" position=-1.0 relposition=38.377 relfrom="inj_point" length=0.108 ps="PCH_S2.08" >
+<element=horcorrector name="MCH_S3.01" position=-1.0 relposition=43.09 relfrom="inj_point" length=0.108 ps="PCH_S3.01" >
+<element=horcorrector name="MCH_S3.02" position=-1.0 relposition=47.753 relfrom="inj_point" length=0.108 ps="PCH_S3.02" >
+<element=horcorrector name="MCH_S3.03" position=-1.0 relposition=49.553 relfrom="inj_point" length=0.108 ps="PCH_S3.03" >
+<element=horcorrector name="MCH_S3.04" position=-1.0 relposition=53.861 relfrom="inj_point" length=0.108 ps="PCH_S3.04" >
+<element=horcorrector name="MCH_S3.06" position=-1.0 relposition=59.869 relfrom="inj_point" length=0.108 ps="PCH_S3.06" >
+<element=horcorrector name="MCH_S3.07" position=-1.0 relposition=61.669 relfrom="inj_point" length=0.108 ps="PCH_S3.07" >
+<element=horcorrector name="MCH_S3.08" position=-1.0 relposition=65.977 relfrom="inj_point" length=0.108 ps="PCH_S3.08" >
+<element=horcorrector name="MCH_S4.01" position=-1.0 relposition=70.69 relfrom="inj_point" length=0.108 ps="PCH_S4.01" >
+<element=horcorrector name="MCH_S4.02" position=-1.0 relposition=75.353 relfrom="inj_point" length=0.108 ps="PCH_S4.02" >
+<element=horcorrector name="MCH_S4.03" position=-1.0 relposition=77.153 relfrom="inj_point" length=0.108 ps="PCH_S4.03" >
+<element=horcorrector name="MCH_S4.04" position=-1.0 relposition=81.4355 relfrom="inj_point" length=0.108 ps="PCH_S4.04" >
+<element=horcorrector name="MCH_S4.06" position=-1.0 relposition=87.469 relfrom="inj_point" length=0.108 ps="PCH_S4.06" >
+<element=horcorrector name="MCH_S4.07" position=-1.0 relposition=89.269 relfrom="inj_point" length=0.108 ps="PCH_S4.07" >
+<element=horcorrector name="MCH_S4.08" position=-1.0 relposition=93.577 relfrom="inj_point" length=0.108 ps="PCH_S4.08" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PCH_S1.01" >
+<element=powersupply name="PCH_S1.02" >
+<element=powersupply name="PCH_S1.03" >
+<element=powersupply name="PCH_S1.04" >
+<element=powersupply name="PCH_S1.06" >
+<element=powersupply name="PCH_S1.07" >
+<element=powersupply name="PCH_S1.08" >
+<element=powersupply name="PCH_S2.01" >
+<element=powersupply name="PCH_S2.02" >
+<element=powersupply name="PCH_S2.03" >
+<element=powersupply name="PCH_S2.04" >
+<element=powersupply name="PCH_S2.06" >
+<element=powersupply name="PCH_S2.07" >
+<element=powersupply name="PCH_S2.08" >
+<element=powersupply name="PCH_S3.01" >
+<element=powersupply name="PCH_S3.02" >
+<element=powersupply name="PCH_S3.03" >
+<element=powersupply name="PCH_S3.04" >
+<element=powersupply name="PCH_S3.06" >
+<element=powersupply name="PCH_S3.07" >
+<element=powersupply name="PCH_S3.08" >
+<element=powersupply name="PCH_S4.01" >
+<element=powersupply name="PCH_S4.02" >
+<element=powersupply name="PCH_S4.03" >
+<element=powersupply name="PCH_S4.04" >
+<element=powersupply name="PCH_S4.06" >
+<element=powersupply name="PCH_S4.07" >
+<element=powersupply name="PCH_S4.08" >

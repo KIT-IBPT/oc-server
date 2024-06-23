@@ -1,0 +1,29 @@
+// quadrupole magnets with it's power supplies
+
+<template=quadrupole virtual= false calibrationentry="Q2" length=0.1 >
+
+<element=quadrupole name="MQ_E.02" position=-1.0 relposition=3.39 relfrom="MARK_E-START" ps="PQ_E.02" >
+<element=quadrupole name="MQ_E.03" position=-1.0 relposition=5.05 relfrom="MARK_E-START" ps="PQ_E.03" >
+<element=quadrupole name="MQ_E.05" position=-1.0 relposition=7.4455 relfrom="MARK_E-START" ps="PQ_E.05" >
+<element=quadrupole name="MQ_E.08" position=-1.0 relposition=10.735 relfrom="MARK_E-START" ps="PQ_E.08" >
+
+<template=quadrupole virtual= false calibrationentry="Q1" length=0.1 >
+
+<element=quadrupole name="MQ_E.01" position=-1.0 relposition=2.83 relfrom="MARK_E-START" ps="PQ_E.01" >
+<element=quadrupole name="MQ_E.04" position=-1.0 relposition=5.68 relfrom="MARK_E-START" ps="PQ_E.04" >
+<element=quadrupole name="MQ_E.06" position=-1.0 relposition=8.0055 relfrom="MARK_E-START" ps="PQ_E.06" >
+<element=quadrupole name="MQ_E.07" position=-1.0 relposition=8.5655 relfrom="MARK_E-START" ps="PQ_E.07" >
+<element=quadrupole name="MQ_E.09" position=-1.0 relposition=11.095 relfrom="MARK_E-START" ps="PQ_E.09" >
+
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PQ_E.01" >
+<element=powersupply name="PQ_E.02" >
+<element=powersupply name="PQ_E.03" >
+<element=powersupply name="PQ_E.04" >
+<element=powersupply name="PQ_E.05" >
+<element=powersupply name="PQ_E.06" >
+<element=powersupply name="PQ_E.07" >
+<element=powersupply name="PQ_E.08" >
+<element=powersupply name="PQ_E.09" >

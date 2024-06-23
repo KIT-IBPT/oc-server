@@ -1,0 +1,9 @@
+<template=marker virtual= true >
+
+<element=marker name="QUADR_B1.01" position=0.0	relposition=-1.0 relfrom="" >
+<element=marker name="QUADR_B2.01" position=-1 relposition=6.6 relfrom="QUADR_B1.01" >
+<element=marker name="QUADR_B3.01" position=-1 relposition=6.6 relfrom="QUADR_B2.01" >
+<element=marker name="QUADR_B4.01" position=-1 relposition=6.6 relfrom="QUADR_B3.01" >
+<element=marker name="QUADR_B4.02" position=-1 relposition=6.6 relfrom="QUADR_B4.01" >
+
+<element=marker name="MARK_B-EXT" position=-1 relposition=6.3799 relfrom="QUADR_B2.01" >

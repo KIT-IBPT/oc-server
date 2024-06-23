@@ -1,0 +1,20 @@
+// connections are made to EPICS
+// basic configuration + correctors and BPMs
+// dbinfo is virtual
+
+<DBINPUT
+"sr/dbinfo_1_oc.txt"
+"sr/markers_2_oc.txt"
+"sr/bendings_4_oc.txt"
+"sr/quadrupoles_4_oc.txt"
+
+"sr/vercorrectors_2_oc.txt"
+"sr/horcorrectors_4_oc.txt"
+"sr/bpmonitors_4_oc.txt"
+
+"sr/rfgenerator_1_oc.txt"
+>
+
+<PROPERTIES
+"ANKA-SR-prop.txt"
+>

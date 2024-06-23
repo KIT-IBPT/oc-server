@@ -1,0 +1,12 @@
+<template=marker virtual= true >
+
+<element=marker name="QUADR_S1.01" position=0.0	relposition=-1.0 relfrom="" >
+<element=marker name="QUADR_S2.01" position=-1 relposition=7.742 relfrom="MQ3_S1.02" >
+<element=marker name="QUADR_S3.01" position=-1 relposition=7.742 relfrom="MQ3_S2.02" >
+<element=marker name="QUADR_S4.01" position=-1 relposition=7.742 relfrom="MQ3_S3.02" >
+<element=marker name="QUADR_S4.02" position=-1 relposition=7.742 relfrom="MQ3_S4.02" >
+
+<element=marker name="MARK_S1.01" position=-1 relposition=6.058 relfrom="MQ3_S1.01" >
+<element=marker name="MARK_S2.01" position=-1 relposition=6.058 relfrom="MQ3_S2.01" >
+<element=marker name="MARK_S3.01" position=-1 relposition=6.058 relfrom="MQ3_S3.01" >
+<element=marker name="MARK_S4.01" position=-1 relposition=6.058 relfrom="MQ3_S4.01" >

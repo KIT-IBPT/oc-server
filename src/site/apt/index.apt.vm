@@ -1,0 +1,97 @@
+                ------
+                Orbit Correction Server
+                ------
+                ------
+                2024
+           
+           
+  <<Contents>>
+
+%{toc|section=0|fromDepth=1|toDepth=3}
+
+                
+===
+
+{Introduction}
+
+  OrbitCorrection server is based on Machine Physics calculation model written in Java. 
+  It uses linear beam optics to calculate necessary machine model parameters. 
+  It uses SVD to invert response matrix for orbit correction calculation.
+
+  OrbitCorrection server can work in "fast" mode in a way that tries to apply orbit correction as frequently as possible, wile doing reasonable compromise on precision. 
+  This enables OC to be run during energy ramping and during insertion device activation. 
+
+  OrbitCorrection server runs embedded EPICS Application server, which exposes API to remote clients.  
+  
+===
+  
+{Server Runtime Bundle}
+
+  At {{{https://www.ibpt.kit.edu/kara.php}KARA}} facility OrbitCorrection Server is distributed and run within {{{${csshellLink}}CS-Shell}} bundle. 
+  
+  Following is directory and file structure of the distribution bundle:
+
+  * <<<config>>> - folder containing configuration files for application servers
+  
+    * <<<bundle.properties>>> - defines home and configuration folders for servers
+    
+    * <<<log4j.properties>>> - log4j configuration file
+    
+    * <<<FastOC>>> - contains configurations files for OrbitCorrectionServer instance, this particular is optimized for performing fast OC loop.
+    
+    * <<<Databush>>> - contains configurations files for core OrbitCorrectionServer machine physics model of accelerator, common to all OC server instances.
+            
+  * <<<lib>>> - contains libraries, tools and executables, such as Java JAR libraries files, JRE/JDK
+    
+  * <<<log>>> - contains log files
+  
+  * <<<sh>>> - contains Linux scripts for running servers, there are several OC ser er instances with own configuration
+
+
+* {Startup Script}
+
+  The application servers finds resources located within the distribution bundle trough runtime configuration in the startup scripts.
+
+  The alarm server for example is started by <<<sh/AlarmServer.sh>>> script. 
+  The script makes three important declarations
+  
+  * <<<export AS_NAME="AlarmServer">>> - this tells what should be the name of log file. It must be declared before main initialization happens.
+  
+  * <<<. "$(dirname "$0")/_init.sh">>> - call to the main bundle initialization script which sets up runtime environment variables, 
+    such as Java JRE and classpath.
+    
+  * <<<$AS_JAVA -classpath $AS_CLASSPATH -Dlog4j.debug=false -DAppServer.init=AppServer-alarms.properties org.scictrl.csshell.epics.server.Server>>> 
+    - this line starts the server
+
+  The startup line contains following elements:
+
+  * <<<$AS_JAVA>>> - is java executable as defined in the <<<_init.sh>>> script, 
+  
+  * <<<$AS_CLASSPATH>>> - is classpath as defined in the <<<_init.sh>>> script,
+  
+  * <<<-DAppServer.init=AppServer-alarms.properties>>> - is name of properties file, which defines initialization properties for the server.
+
+* {The Application Server Initialization Configuration}
+
+  
+    
+===
+
+{Glossary of Terms}
+
+*--+--+
+|| Term || Description ||
+*--+--+
+| CA  | Channel Access protocol, part of EPICS |
+*--+--+
+| CAS | Java implementation of CA protocol on server side |
+*--+--+
+| CSS BEAST | Control system studio implementation of EPICS archiver called BEAST |
+*--+--+
+| OC  | short for Orbit Correction, which is an algorithm that calculates change of corrector magnets in order to improve electron beam orbit. |
+*--+--+
+| JCA | Java implementation of CA protocol on client side |
+*--+--+
+
+
+  

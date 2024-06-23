@@ -1,0 +1,39 @@
+// vertical correctors with it's power supplies
+
+<template=vercorrector virtual=false calibrationentry="CV" >
+
+<element=vercorrector name="MCV_S1.01" position=-1.0 relposition=99.51 relfrom="inj_point" length=0.108 ps="PCV_S1.01" >
+<element=vercorrector name="MCV_S1.02" position=-1.0 relposition=108.276 relfrom="inj_point" length=0.108 ps="PCV_S1.02" >
+<element=vercorrector name="MCV_S1.03" position=-1.0 relposition=1.226 relfrom="inj_point" length=0.108 ps="PCV_S1.03" >
+<element=vercorrector name="MCV_S1.04" position=-1.0 relposition=9.992 relfrom="inj_point" length=0.108 ps="PCV_S1.04" >
+<element=vercorrector name="MCV_S2.01" position=-1.0 relposition=16.71 relfrom="inj_point" length=0.108 ps="PCV_S2.01" >
+<element=vercorrector name="MCV_S2.02" position=-1.0 relposition=25.476 relfrom="inj_point" length=0.108 ps="PCV_S2.02" >
+<element=vercorrector name="MCV_S2.03" position=-1.0 relposition=28.826 relfrom="inj_point" length=0.108 ps="PCV_S2.03" >
+<element=vercorrector name="MCV_S2.04" position=-1.0 relposition=37.592 relfrom="inj_point" length=0.108 ps="PCV_S2.04" >
+<element=vercorrector name="MCV_S3.01" position=-1.0 relposition=44.31 relfrom="inj_point" length=0.108 ps="PCV_S3.01" >
+<element=vercorrector name="MCV_S3.02" position=-1.0 relposition=53.076 relfrom="inj_point" length=0.108 ps="PCV_S3.02" >
+<element=vercorrector name="MCV_S3.03" position=-1.0 relposition=56.426 relfrom="inj_point" length=0.108 ps="PCV_S3.03" >
+<element=vercorrector name="MCV_S3.04" position=-1.0 relposition=65.192 relfrom="inj_point" length=0.108 ps="PCV_S3.04" >
+<element=vercorrector name="MCV_S4.01" position=-1.0 relposition=71.91 relfrom="inj_point" length=0.108 ps="PCV_S4.01" >
+<element=vercorrector name="MCV_S4.02" position=-1.0 relposition=80.676 relfrom="inj_point" length=0.108 ps="PCV_S4.02" >
+<element=vercorrector name="MCV_S4.03" position=-1.0 relposition=84.026 relfrom="inj_point" length=0.108 ps="PCV_S4.03" >
+<element=vercorrector name="MCV_S4.04" position=-1.0 relposition=92.792 relfrom="inj_point" length=0.108 ps="PCV_S4.04" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PCV_S1.01" >
+<element=powersupply name="PCV_S1.02" >
+<element=powersupply name="PCV_S1.03" >
+<element=powersupply name="PCV_S1.04" >
+<element=powersupply name="PCV_S2.01" >
+<element=powersupply name="PCV_S2.02" >
+<element=powersupply name="PCV_S2.03" >
+<element=powersupply name="PCV_S2.04" >
+<element=powersupply name="PCV_S3.01" >
+<element=powersupply name="PCV_S3.02" >
+<element=powersupply name="PCV_S3.03" >
+<element=powersupply name="PCV_S3.04" >
+<element=powersupply name="PCV_S4.01" >
+<element=powersupply name="PCV_S4.02" >
+<element=powersupply name="PCV_S4.03" >
+<element=powersupply name="PCV_S4.04" >

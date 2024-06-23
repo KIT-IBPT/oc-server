@@ -1,0 +1,10 @@
+// basic configuration, only bends and quadrupoles
+<DBINPUT
+"boo/dbinfo_1.1.txt"
+"boo/markers_1.txt"
+"boo/bendings_1.txt"
+"boo/quadrupoles_1.txt"
+>
+<PROPERTIES
+"ANKA-BO-prop.txt"
+>

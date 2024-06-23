@@ -1,0 +1,49 @@
+// vertical correctors with it's power supplies
+
+<template=vercorrector virtual= false calibrationentry="CV1" >
+
+<element=vercorrector name="MCV_S1.02" position=-1.0 relposition=-1.735 relfrom="MARK_S1.01" length=0.108 ps="A:SR-S1:PS:MCV-02" >
+<element=vercorrector name="MCV_S1.04" position=-1.0 relposition=-3.419 relfrom="QUADR_S2.01" length=0.108 ps="A:SR-S1:PS:MCV-04" >
+
+<element=vercorrector name="MCV_S2.02" position=-1.0 relposition=-1.735 relfrom="MARK_S2.01" length=0.108 ps="A:SR-S2:PS:MCV-02" >
+<element=vercorrector name="MCV_S2.04" position=-1.0 relposition=-3.419 relfrom="QUADR_S3.01" length=0.108 ps="A:SR-S2:PS:MCV-04" >
+
+<element=vercorrector name="MCV_S3.02" position=-1.0 relposition=-1.735 relfrom="MARK_S3.01" length=0.108 ps="A:SR-S3:PS:MCV-02" >
+<element=vercorrector name="MCV_S3.04" position=-1.0 relposition=-3.419 relfrom="QUADR_S4.01" length=0.108 ps="A:SR-S3:PS:MCV-04" >
+
+<element=vercorrector name="MCV_S4.02" position=-1.0 relposition=-1.735 relfrom="MARK_S4.01" length=0.108 ps="A:SR-S4:PS:MCV-02" >
+<element=vercorrector name="MCV_S4.04" position=-1.0 relposition=-3.419 relfrom="QUADR_S4.02" length=0.108 ps="A:SR-S4:PS:MCV-04" >
+
+<template=vercorrector virtual= false calibrationentry="CV2" >
+
+<element=vercorrector name="MCV_S1.01" position=-1.0 relposition=3.299 relfrom="QUADR_S1.01" length=0.108 ps="A:SR-S1:PS:MCV-01" >
+<element=vercorrector name="MCV_S1.03" position=-1.0 relposition=1.615 relfrom="MARK_S1.01" length=0.108 ps="A:SR-S1:PS:MCV-03" >
+
+<element=vercorrector name="MCV_S2.01" position=-1.0 relposition=3.299 relfrom="QUADR_S2.01" length=0.108 ps="A:SR-S2:PS:MCV-01" >
+<element=vercorrector name="MCV_S2.03" position=-1.0 relposition=1.615 relfrom="MARK_S2.01" length=0.108 ps="A:SR-S2:PS:MCV-03" >
+
+<element=vercorrector name="MCV_S3.01" position=-1.0 relposition=3.299 relfrom="QUADR_S3.01" length=0.108 ps="A:SR-S3:PS:MCV-01" >
+<element=vercorrector name="MCV_S3.03" position=-1.0 relposition=1.615 relfrom="MARK_S3.01" length=0.108 ps="A:SR-S3:PS:MCV-03" >
+
+<element=vercorrector name="MCV_S4.01" position=-1.0 relposition=3.299 relfrom="QUADR_S4.01" length=0.108 ps="A:SR-S4:PS:MCV-01" >
+<element=vercorrector name="MCV_S4.03" position=-1.0 relposition=1.615 relfrom="MARK_S4.01" length=0.108 ps="A:SR-S4:PS:MCV-03" >
+
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="A:SR-S1:PS:MCV-01" >
+<element=powersupply name="A:SR-S1:PS:MCV-02" >
+<element=powersupply name="A:SR-S1:PS:MCV-03" >
+<element=powersupply name="A:SR-S1:PS:MCV-04" >
+<element=powersupply name="A:SR-S2:PS:MCV-01" >
+<element=powersupply name="A:SR-S2:PS:MCV-02" >
+<element=powersupply name="A:SR-S2:PS:MCV-03" >
+<element=powersupply name="A:SR-S2:PS:MCV-04" >
+<element=powersupply name="A:SR-S3:PS:MCV-01" >
+<element=powersupply name="A:SR-S3:PS:MCV-02" >
+<element=powersupply name="A:SR-S3:PS:MCV-03" >
+<element=powersupply name="A:SR-S3:PS:MCV-04" >
+<element=powersupply name="A:SR-S4:PS:MCV-01" >
+<element=powersupply name="A:SR-S4:PS:MCV-02" >
+<element=powersupply name="A:SR-S4:PS:MCV-03" >
+<element=powersupply name="A:SR-S4:PS:MCV-04" >

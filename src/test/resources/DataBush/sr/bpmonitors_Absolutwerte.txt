@@ -1,0 +1,45 @@
+<template=bpm virtual= false >
+
+<element=bpm name="DBPM_S1.01" position=3.484 >
+<element=bpm name="DBPM_S1.02" position=6.38901 >
+<element=bpm name="DBPM_S1.03" position=8.77701 >
+<element=bpm name="DBPM_S1.04" position=11.492025 >
+<element=bpm name="DBPM_S1.05" position=15.60002 >
+<element=bpm name="DBPM_S1.06" position=18.50503 >
+<element=bpm name="DBPM_S1.07" position=20.89303 >
+<element=bpm name="DBPM_S1.08" position=23.60804 >
+
+<element=bpm name="DBPM_S2.01" position=31.08404 >
+<element=bpm name="DBPM_S2.02" position=33.98905 >
+<element=bpm name="DBPM_S2.03" position=36.37705 >
+<element=bpm name="DBPM_S2.04" position=39.09206 >
+<element=bpm name="DBPM_S2.05" position=43.20006 >
+<element=bpm name="DBPM_S2.06" position=46.10507 >
+<element=bpm name="DBPM_S2.07" position=48.49307 >
+<element=bpm name="DBPM_S2.08" position=51.20808 >
+<element=bpm name="DBPM_S2.09" position=53.91508 >
+<element=bpm name="DBPM_S2.10" position=56.48508 >
+
+<element=bpm name="DBPM_S3.01" position=58.68408 >
+<element=bpm name="DBPM_S3.02" position=61.58909 >
+<element=bpm name="DBPM_S3.03" position=63.97709 >
+<element=bpm name="DBPM_S3.04" position=66.6921 >
+<element=bpm name="DBPM_S3.05" position=70.8001 >
+<element=bpm name="DBPM_S3.06" position=73.70511 >
+<element=bpm name="DBPM_S3.07" position=76.09311 >
+<element=bpm name="DBPM_S3.08" position=78.80812 >
+//<element=bpm name="TM_S3_01" position=80.79112 >
+<element=bpm name="DBPM_S3.09" position=81.40127 >
+<element=bpm name="DBPM_S3.10" position=84.66397 >
+
+<element=bpm name="DBPM_S4.01" position=86.28412 >
+//<element=bpm name="DBPM_S4.02" position=89.18913 >
+<element=bpm name="DBPM_S4.03" position=91.57713 >
+<element=bpm name="DBPM_S4.04" position=94.29214 >
+<element=bpm name="DBPM_S4.05" position=98.40014 >
+<element=bpm name="DBPM_S4.06" position=101.30515 >
+<element=bpm name="DBPM_S4.07" position=103.69315 >
+<element=bpm name="DBPM_S4.08" position=106.40816 >
+<element=bpm name="DBPM_S4.09" position=108.98481 >
+<element=bpm name="DBPM_S4.10" position=1.41535 >
+

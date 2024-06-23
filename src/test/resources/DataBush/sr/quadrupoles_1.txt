@@ -1,0 +1,99 @@
+// quadrupole magnets with it's power supplies
+
+<template=quadrupole virtual= false calibrationentry="MQ1" >
+
+<element=quadrupole name="MQ1_S1.01" position=-1.0 relposition=99.1725 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S1.02" position=-1.0 relposition=10.4495 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S2.01" position=-1.0 relposition=16.3725 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S2.02" position=-1.0 relposition=38.0495 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S3.01" position=-1.0 relposition=43.9725 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S3.02" position=-1.0 relposition=65.6495 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S4.01" position=-1.0 relposition=71.5725 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+<element=quadrupole name="MQ1_S4.02" position=-1.0 relposition=93.2495 relfrom="inj_point" length=0.32 ps="PQ1_S.01" >
+
+<template=quadrupole calibrationentry="MQ2" >
+
+<element=quadrupole name="MQ2_S1.01" position=-1.0 relposition=99.9425 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S1.02" position=-1.0 relposition=9.6795 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S2.01" position=-1.0 relposition=17.1425 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S2.02" position=-1.0 relposition=37.2795 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S3.01" position=-1.0 relposition=44.7425 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S3.02" position=-1.0 relposition=64.8795 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S4.01" position=-1.0 relposition=72.3425 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+<element=quadrupole name="MQ2_S4.02" position=-1.0 relposition=92.4795 relfrom="inj_point" length=0.32 ps="PQ2_S.01" >
+
+<template=quadrupole calibrationentry="MQ3" >
+
+<element=quadrupole name="MQ3_S1.01" position=-1.0 relposition=103.953 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S1.02" position=-1.0 relposition=5.669 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S2.01" position=-1.0 relposition=21.153 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S2.02" position=-1.0 relposition=33.269 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S3.01" position=-1.0 relposition=48.753 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S3.02" position=-1.0 relposition=60.869 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S4.01" position=-1.0 relposition=76.353 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+<element=quadrupole name="MQ3_S4.02" position=-1.0 relposition=88.469 relfrom="inj_point" length=0.39 ps="PQ3_S.01" >
+
+<template=quadrupole calibrationentry="MQ4" >
+
+<element=quadrupole name="MQ4_S1.01" position=-1.0 relposition=107.9635 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S1.02" position=-1.0 relposition=1.6585 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S2.01" position=-1.0 relposition=25.1635 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S2.02" position=-1.0 relposition=29.2585 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S3.01" position=-1.0 relposition=52.7635 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S3.02" position=-1.0 relposition=56.8585 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S4.01" position=-1.0 relposition=80.3635 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+<element=quadrupole name="MQ4_S4.02" position=-1.0 relposition=84.4585 relfrom="inj_point" length=0.32 ps="PQ4_S.01" >
+
+<template=quadrupole calibrationentry="MQ5" >
+
+<element=quadrupole name="MQ5_S1.01" position=-1.0 relposition=108.7335 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S1.02" position=-1.0 relposition=0.8885 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S2.01" position=-1.0 relposition=25.9335 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S2.02" position=-1.0 relposition=28.4885 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S3.01" position=-1.0 relposition=53.5335 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S3.02" position=-1.0 relposition=56.0885 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S4.01" position=-1.0 relposition=81.1335 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+<element=quadrupole name="MQ5_S4.02" position=-1.0 relposition=83.6885 relfrom="inj_point" length=0.32 ps="PQ5_S.01" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ1_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ2_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ3_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ4_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >
+<element=powersupply name="PQ5_S.01" >

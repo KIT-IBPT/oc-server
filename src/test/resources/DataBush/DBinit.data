@@ -1,0 +1,37 @@
+# Following two parameters are required for DataBush
+
+# Base URL is location of root for all relative referenced files 
+# which are used by DataBush configuration readers.
+# By agreement should be used Clients\DataBush folder.
+# Can be used as a relative reference to this configuration file.
+
+dbinit.base_url=./
+
+# Location of default input file
+
+dbinit.inputfile_url=ANKA-SR-Elements_4.txt
+
+
+# Following entries are optional. If not used, default values will be used.
+
+# dbinit.dbreader=
+# dbinit.databush.minupdateinterval=
+# dbinit.databush.position_precision=
+# dbinit.databush.bpm_position_precision=
+# dbinit.databush.current_precision=
+# dbinit.databush.beam_simulator=
+# dbinit.databush.apply_model=
+
+# Fllowing optional parameters must be set in order to use DataBush with 
+# ANKA control system.
+
+dbinit.databush.control_system=org.scictrl.mp.orbitcorrect.epics.EControlSystemEngine
+
+dbinit.databush.calculator_factory=org.scictrl.mp.orbitcorrect.accessories.DefaultCalculatorModelFactory
+# Special parameters used by DataBush components
+
+dbcalculatormodelfactory.calibration_file_url=cal/calibration_4.txt
+
+opticlinechooser.optic_lines={"Injection Line","ANKA-INJ_1.txt","MARK_I-START","MARK_I-END"}{"Booster","ANKA-BO_1.1.txt","QUADR_B1.01","QUADR_B2.01"}{"Extraction Line","ANKA-EXT_1.txt","MARK_E-START","MARK_E-END"}{"Storage Ring","ANKA-SR_3.1.txt","QUADR_S1.01","QUADR_S2.01"}{"Storage Ring COR","ANKA-SR_4.1.txt","QUADR_S1.01","QUADR_S2.01"}
+
+opticlinechooser.optic_matches="Extraction Line":"MARK_E-START"="Booster":"MARK_B-EXT"

@@ -1,0 +1,10 @@
+// basic configuration, only bends and quadrupoles
+<DBINPUT
+"inj/dbinfo_1.txt"
+"inj/markers_1.txt"
+"inj/bendings_1.txt"
+"inj/quadrupoles_1.txt"
+>
+<PROPERTIES
+"ANKA-INJ-prop.txt"
+>

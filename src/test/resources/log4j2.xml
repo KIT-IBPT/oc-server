@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="60">
+  <Appenders>
+    <Console name="C" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d [%t] %-5p %c{1} - %m%n"/>
+    </Console>
+    <RollingFile 
+            name="RF" 
+            fileName="./logs/test.log" 
+            filePattern="./logs/test.log.%i">
+      <PatternLayout pattern="%d [%t] %-5p %c{1.} - %m%n" />
+      <Policies>
+        <OnStartupTriggeringPolicy/>
+        <SizeBasedTriggeringPolicy size="500 MB"/>
+      </Policies>
+      <DefaultRolloverStrategy max="10"/>
+    </RollingFile>
+  </Appenders>
+  <Loggers>
+    <Root level="ALL">
+      <AppenderRef ref="C"/>
+      <AppenderRef ref="RF"/>
+    </Root>
+    <Logger name="CSSHELL.EPICS" level="INFO"/>
+    <Logger name="org.apache.logging.log4j.simplelog.StatusLogger" level="ERROR"/>
+    <Logger name="org.scictrl.csshell.epics.EPICSConnection" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.Server" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.ValueLinks" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.automata.ValueStateMachine" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.BeamDumpApplication" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.BeamScanApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.BeamSpotApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.control.AbstractController" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.control.StepOptimizationApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.control.ThreePointOptimizer" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.EnergyScanApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.FeedbackLoopApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.ScanApplication" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.SteppingFeedbackLoopApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.processmanager.ProcessManagerApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.application.WigglerRampApplication" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.astra.ASTRAServerApplication" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.ConfigurationManager" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.jdoocs.JDoocsValueProcessor" level="INFO"/>
+    <Logger name="org.scictrl.csshell.epics.server.processor.SWRValueProcessor" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.processor.ValueDiffCheckProcessor" level="ALL"/>
+    <Logger name="org.scictrl.csshell.epics.server.ProcessVariable4Record" level="INFO"/>
+
+    <Logger name="si.ijs.anka.databush2.correction.models.CombinedOrbitCorrectionModel" level="ALL"/>
+    <Logger name="si.ijs.anka.databush2.correction.OrbitCorrectionController" level="ALL"/>
+    <Logger name="si.ijs.anka.databush2.server.DataBushServerLocal" level="ALL"/>
+    <Logger name="si.ijs.anka.databush2.model.optics.DataBushHandler" level="ALL"/>
+
+    <Logger name="org.scictrl.mp.orbitcorrect.correction.models.CombinedOrbitCorrectionModel" level="ALL"/>
+    <Logger name="org.scictrl.mp.orbitcorrect.correction.OrbitCorrectionController" level="ALL"/>
+    <Logger name="org.scictrl.mp.orbitcorrect.server.DataBushServerLocal" level="ALL"/>
+    <Logger name="org.scictrl.mp.orbitcorrect.model.optics.DataBushHandler" level="ALL"/>
+  </Loggers>
+</Configuration>

@@ -1,0 +1,79 @@
+// quadrupole magnets with it's power supplies
+
+<template=quadrupole virtual= false calibrationentry="MQ1" length=0.32 ps="A:SR:PS:MQ1-01" >
+
+<element=quadrupole name="MQ1_S1.01" position=-1.0 relposition=2.9615 relfrom="QUADR_S1.01" >
+<element=quadrupole name="MQ1_S1.02" position=-1.0 relposition=-2.9615 relfrom="QUADR_S2.01" >
+
+<element=quadrupole name="MQ1_S2.01" position=-1.0 relposition=2.9615 relfrom="QUADR_S2.01" >
+<element=quadrupole name="MQ1_S2.02" position=-1.0 relposition=-2.9615 relfrom="QUADR_S3.01" >
+
+<element=quadrupole name="MQ1_S3.01" position=-1.0 relposition=2.9615 relfrom="QUADR_S3.01" >
+<element=quadrupole name="MQ1_S3.02" position=-1.0 relposition=-2.9615 relfrom="QUADR_S4.01" >
+
+<element=quadrupole name="MQ1_S4.01" position=-1.0 relposition=2.9615 relfrom="QUADR_S4.01" >
+<element=quadrupole name="MQ1_S4.02" position=-1.0 relposition=-2.9615 relfrom="QUADR_S4.02" >
+
+<template=quadrupole virtual= false calibrationentry="MQ2" length=0.32 ps="A:SR:PS:MQ2-01" >
+
+<element=quadrupole name="MQ2_S1.01" position=-1.0 relposition=3.7315 relfrom="QUADR_S1.01" >
+<element=quadrupole name="MQ2_S1.02" position=-1.0 relposition=-3.7315 relfrom="QUADR_S2.01" >
+
+<element=quadrupole name="MQ2_S2.01" position=-1.0 relposition=3.7315 relfrom="QUADR_S2.01" >
+<element=quadrupole name="MQ2_S2.02" position=-1.0 relposition=-3.7315 relfrom="QUADR_S3.01" >
+
+<element=quadrupole name="MQ2_S3.01" position=-1.0 relposition=3.7315 relfrom="QUADR_S3.01" >
+<element=quadrupole name="MQ2_S3.02" position=-1.0 relposition=-3.7315 relfrom="QUADR_S4.01" >
+
+<element=quadrupole name="MQ2_S4.01" position=-1.0 relposition=3.7315 relfrom="QUADR_S4.01" >
+<element=quadrupole name="MQ2_S4.02" position=-1.0 relposition=-3.7315 relfrom="QUADR_S4.02" >
+
+<template=quadrupole virtual= false calibrationentry="MQ3" length=0.39 ps="A:SR:PS:MQ3-01" >
+
+<element=quadrupole name="MQ3_S1.01" position=-1.0 relposition=7.742 relfrom="QUADR_S1.01" >
+<element=quadrupole name="MQ3_S1.02" position=-1.0 relposition=6.058 relfrom="MARK_S1.01" >
+
+<element=quadrupole name="MQ3_S2.01" position=-1.0 relposition=7.742 relfrom="QUADR_S2.01" >
+<element=quadrupole name="MQ3_S2.02" position=-1.0 relposition=6.058 relfrom="MARK_S2.01" >
+
+<element=quadrupole name="MQ3_S3.01" position=-1.0 relposition=7.742 relfrom="QUADR_S3.01" >
+<element=quadrupole name="MQ3_S3.02" position=-1.0 relposition=6.058 relfrom="MARK_S3.01" >
+
+<element=quadrupole name="MQ3_S4.01" position=-1.0 relposition=7.742 relfrom="QUADR_S4.01" >
+<element=quadrupole name="MQ3_S4.02" position=-1.0 relposition=6.058 relfrom="MARK_S4.01" >
+
+<template=quadrupole virtual= false calibrationentry="MQ4" length=0.32 ps="A:SR:PS:MQ4-01" >
+
+<element=quadrupole name="MQ4_S1.01" position=-1.0 relposition=-2.0475 relfrom="MARK_S1.01" >
+<element=quadrupole name="MQ4_S1.02" position=-1.0 relposition=2.0475 relfrom="MARK_S1.01" >
+
+<element=quadrupole name="MQ4_S2.01" position=-1.0 relposition=-2.0475 relfrom="MARK_S2.01" >
+<element=quadrupole name="MQ4_S2.02" position=-1.0 relposition=2.0475 relfrom="MARK_S2.01" >
+
+<element=quadrupole name="MQ4_S3.01" position=-1.0 relposition=-2.0475 relfrom="MARK_S3.01" >
+<element=quadrupole name="MQ4_S3.02" position=-1.0 relposition=2.0475 relfrom="MARK_S3.01" >
+
+<element=quadrupole name="MQ4_S4.01" position=-1.0 relposition=-2.0475 relfrom="MARK_S4.01" >
+<element=quadrupole name="MQ4_S4.02" position=-1.0 relposition=2.0475 relfrom="MARK_S4.01" >
+
+<template=quadrupole virtual= false calibrationentry="MQ5" length=0.32 ps="A:SR:PS:MQ5-01" >
+
+<element=quadrupole name="MQ5_S1.01" position=-1.0 relposition=-1.2775 relfrom="MARK_S1.01" >
+<element=quadrupole name="MQ5_S1.02" position=-1.0 relposition=1.2775 relfrom="MARK_S1.01" >
+
+<element=quadrupole name="MQ5_S2.01" position=-1.0 relposition=-1.2775 relfrom="MARK_S2.01" >
+<element=quadrupole name="MQ5_S2.02" position=-1.0 relposition=1.2775 relfrom="MARK_S2.01" >
+
+<element=quadrupole name="MQ5_S3.01" position=-1.0 relposition=-1.2775 relfrom="MARK_S3.01" >
+<element=quadrupole name="MQ5_S3.02" position=-1.0 relposition=1.2775 relfrom="MARK_S3.01" >
+
+<element=quadrupole name="MQ5_S4.01" position=-1.0 relposition=-1.2775 relfrom="MARK_S4.01" >
+<element=quadrupole name="MQ5_S4.02" position=-1.0 relposition=1.2775 relfrom="MARK_S4.01" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="A:SR:PS:MQ1-01" >
+<element=powersupply name="A:SR:PS:MQ2-01" >
+<element=powersupply name="A:SR:PS:MQ3-01" >
+<element=powersupply name="A:SR:PS:MQ4-01" >
+<element=powersupply name="A:SR:PS:MQ5-01" >

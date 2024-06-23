@@ -1,0 +1,1 @@
+<element=rfgenerator name="A:TI:SignGen:SR-01" virtual=false frequency=500.0 >

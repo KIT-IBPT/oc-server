@@ -1,0 +1,1 @@
+<element="dbinfo" name="INFO_I.01" virtual=true energy=0.053 calibrationfile="cal/calibration_I.txt" efrombend=true orbitclosed=false betax=10.2879 betaz=7.63068 alphax=-0.210392 alphaz=0.922052 qx=0.526600 qz=0.0367329 d=-0.251654 dp=0.262102 >

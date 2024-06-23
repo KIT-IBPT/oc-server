@@ -1,0 +1,14 @@
+// bending magnets with it's power supply
+
+<template=rbending virtual= false ps="PBEND_E.01" calibrationentry="B" energy=0.5 length=0.8014 radius=1.67 >
+
+<element=rbending name="MSEPTE_B.01" ps="PBEND_E.02" position=-1.0 relposition=0.375 relfrom="MARK_E-START" length=0.75 radius=-2.865 >
+
+<element=rbending name="MBEND_E.01" ps="PBEND_E.01" position=-1.0 relposition=6.36075 relfrom="MARK_E-START" >
+<element=rbending name="MBEND_E.02" ps="PBEND_E.02" position=-1.0 relposition=9.65025 relfrom="MARK_E-START" >
+
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PBEND_E.01" >
+<element=powersupply name="PBEND_E.02" >

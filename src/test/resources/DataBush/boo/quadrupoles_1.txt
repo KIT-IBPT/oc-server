@@ -1,0 +1,21 @@
+// quadrupole magnets with it's power supplies
+
+<template=quadrupole virtual= false position=-1.0 length=0.15 calibrationentry="Q" length=0.32 ps="PQ_B.01" >
+
+<template=quadrupole relposition=1.0701 >
+
+<element=quadrupole name="MQ_B1.01" relfrom="QUADR_B1.01" >
+<element=quadrupole name="MQ_B2.01" relfrom="QUADR_B2.01" >
+<element=quadrupole name="MQ_B3.01" relfrom="QUADR_B3.01" >
+<element=quadrupole name="MQ_B4.01" relfrom="QUADR_B4.01" >
+
+<template=quadrupole relposition=5.5299 >
+
+<element=quadrupole name="MQ_B1.02" relfrom="QUADR_B1.01" >
+<element=quadrupole name="MQ_B2.02" relfrom="QUADR_B2.01" >
+<element=quadrupole name="MQ_B3.02" relfrom="QUADR_B3.01" >
+<element=quadrupole name="MQ_B4.02" relfrom="QUADR_B4.01" >
+
+<template=powersupply virtual= false >
+
+s<element=powersupply name="PQ_B.01" >

@@ -1,0 +1,70 @@
+// horizontal correcctors with it's power supplies
+
+<template=horcorrector virtual= false calibrationentry="CH" length=0.108 >
+
+<element=horcorrector name="MCH_S1.01" position=-1.0 relposition=1.598 relfrom="QUADR_S1.01" ps="A:SR-S1:PS:MCH-01" >
+<element=horcorrector name="MCH_S1.02" position=-1.0 relposition=-1.000 relfrom="MQ3_S1.01" ps="A:SR-S1:PS:MCH-02" >
+<element=horcorrector name="MCH_S1.03" position=-1.0 relposition=0.800 relfrom="MQ3_S1.01" ps="A:SR-S1:PS:MCH-03" >
+<element=horcorrector name="MCH_S1.04" position=-1.0 relposition=-0.950 relfrom="MARK_S1.01" ps="A:SR-S1:PS:MCH-04" >
+<element=horcorrector name="MCH_S1.06" position=-1.0 relposition=-1.000 relfrom="MQ3_S1.02" ps="A:SR-S1:PS:MCH-06" >
+<element=horcorrector name="MCH_S1.07" position=-1.0 relposition=0.800 relfrom="MQ3_S1.02" ps="A:SR-S1:PS:MCH-07" >
+<element=horcorrector name="MCH_S1.08" position=-1.0 relposition=-2.634 relfrom="QUADR_S2.01" ps="A:SR-S1:PS:MCH-08" >
+
+<element=horcorrector name="MCH_S2.01" position=-1.0 relposition=1.657 relfrom="QUADR_S2.01" ps="A:SR-S2:PS:MCH-01" >
+<element=horcorrector name="MCH_S2.02" position=-1.0 relposition=-1.000 relfrom="MQ3_S2.01" ps="A:SR-S2:PS:MCH-02" >
+<element=horcorrector name="MCH_S2.03" position=-1.0 relposition=0.800 relfrom="MQ3_S2.01" ps="A:SR-S2:PS:MCH-03" >
+<element=horcorrector name="MCH_S2.04" position=-1.0 relposition=-0.980 relfrom="MARK_S2.01" ps="A:SR-S2:PS:MCH-04" >
+<element=horcorrector name="MCH_S2.06" position=-1.0 relposition=-1.000 relfrom="MQ3_S2.02" ps="A:SR-S2:PS:MCH-06" >
+<element=horcorrector name="MCH_S2.07" position=-1.0 relposition=0.800 relfrom="MQ3_S2.02" ps="A:SR-S2:PS:MCH-07" >
+<element=horcorrector name="MCH_S2.08" position=-1.0 relposition=-2.634 relfrom="QUADR_S3.01" ps="A:SR-S2:PS:MCH-08" >
+
+<element=horcorrector name="MCH_S3.01" position=-1.0 relposition=2.459 relfrom="QUADR_S2.01" ps="A:SR-S3:PS:MCH-01" >
+<element=horcorrector name="MCH_S3.02" position=-1.0 relposition=-1.000 relfrom="MQ3_S3.01" ps="A:SR-S3:PS:MCH-02" >
+<element=horcorrector name="MCH_S3.03" position=-1.0 relposition=0.800 relfrom="MQ3_S3.01" ps="A:SR-S3:PS:MCH-03" >
+<element=horcorrector name="MCH_S3.04" position=-1.0 relposition=-0.973 relfrom="MARK_S3.01" ps="A:SR-S3:PS:MCH-04" >
+<element=horcorrector name="MCH_S3.06" position=-1.0 relposition=-1.000 relfrom="MQ3_S3.02" ps="A:SR-S3:PS:MCH-06" >
+<element=horcorrector name="MCH_S3.07" position=-1.0 relposition=0.800 relfrom="MQ3_S3.02" ps="A:SR-S3:PS:MCH-07" >
+<element=horcorrector name="MCH_S3.08" position=-1.0 relposition=-2.634 relfrom="QUADR_S4.01" ps="A:SR-S3:PS:MCH-08" >
+
+<element=horcorrector name="MCH_S4.01" position=-1.0 relposition=2.513 relfrom="QUADR_S4.01" ps="A:SR-S4:PS:MCH-01" >
+<element=horcorrector name="MCH_S4.02" position=-1.0 relposition=-1.000 relfrom="MQ3_S4.01" ps="A:SR-S4:PS:MCH-02" >
+<element=horcorrector name="MCH_S4.03" position=-1.0 relposition=0.800 relfrom="MQ3_S4.01" ps="A:SR-S4:PS:MCH-03" >
+<element=horcorrector name="MCH_S4.04" position=-1.0 relposition=-0.980 relfrom="MARK_S4.01" ps="A:SR-S4:PS:MCH-04" >
+<element=horcorrector name="MCH_S4.06" position=-1.0 relposition=-1.000 relfrom="MQ3_S4.02" ps="A:SR-S4:PS:MCH-06" >
+<element=horcorrector name="MCH_S4.07" position=-1.0 relposition=0.800 relfrom="MQ3_S4.02" ps="A:SR-S4:PS:MCH-07" >
+<element=horcorrector name="MCH_S4.08" position=-1.0 relposition=-2.634 relfrom="QUADR_S4.02" ps="A:SR-S4:PS:MCH-08" >
+
+<template=horcorrector virtual= false calibrationentry="CH31" length=0.108 >
+
+<element=horcorrector name="MCH_S3.01" position=-1.0 relposition=1.708 relfrom="QUADR_S3.01" ps="A:SR-S3:PS:MCH-01" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="A:SR-S1:PS:MCH-01" >
+<element=powersupply name="A:SR-S1:PS:MCH-02" >
+<element=powersupply name="A:SR-S1:PS:MCH-03" >
+<element=powersupply name="A:SR-S1:PS:MCH-04" >
+<element=powersupply name="A:SR-S1:PS:MCH-06" >
+<element=powersupply name="A:SR-S1:PS:MCH-07" >
+<element=powersupply name="A:SR-S1:PS:MCH-08" >
+<element=powersupply name="A:SR-S2:PS:MCH-01" >
+<element=powersupply name="A:SR-S2:PS:MCH-02" >
+<element=powersupply name="A:SR-S2:PS:MCH-03" >
+<element=powersupply name="A:SR-S2:PS:MCH-04" >
+<element=powersupply name="A:SR-S2:PS:MCH-06" >
+<element=powersupply name="A:SR-S2:PS:MCH-07" >
+<element=powersupply name="A:SR-S2:PS:MCH-08" >
+<element=powersupply name="A:SR-S3:PS:MCH-01" >
+<element=powersupply name="A:SR-S3:PS:MCH-02" >
+<element=powersupply name="A:SR-S3:PS:MCH-03" >
+<element=powersupply name="A:SR-S3:PS:MCH-04" >
+<element=powersupply name="A:SR-S3:PS:MCH-06" >
+<element=powersupply name="A:SR-S3:PS:MCH-07" >
+<element=powersupply name="A:SR-S3:PS:MCH-08" >
+<element=powersupply name="A:SR-S4:PS:MCH-01" >
+<element=powersupply name="A:SR-S4:PS:MCH-02" >
+<element=powersupply name="A:SR-S4:PS:MCH-03" >
+<element=powersupply name="A:SR-S4:PS:MCH-04" >
+<element=powersupply name="A:SR-S4:PS:MCH-06" >
+<element=powersupply name="A:SR-S4:PS:MCH-07" >
+<element=powersupply name="A:SR-S4:PS:MCH-08" >

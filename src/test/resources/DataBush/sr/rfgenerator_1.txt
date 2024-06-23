@@ -1,0 +1,1 @@
+<element=rfgenerator name="RFSG_D.01" virtual=false frequency=500.0 >

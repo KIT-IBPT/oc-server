@@ -1,0 +1,21 @@
+// bending magnets with it's power supply
+
+<template=rbending virtual= false ps="PBEND_B.01" calibrationentry="B" energy=0.5 length=1.3099 radius=1.6678 >
+
+<template=rbending position=-1.0 relposition=2.28505 >
+
+<element=rbending name="MBEND_B1.01" relfrom="QUADR_B1.01" >
+<element=rbending name="MBEND_B2.01" relfrom="QUADR_B2.01" >
+<element=rbending name="MBEND_B3.01" relfrom="QUADR_B3.01" >
+<element=rbending name="MBEND_B4.01" relfrom="QUADR_B4.01" >
+
+<template=rbending position=-1.0 relposition=4.31495 >
+
+<element=rbending name="MBEND_B1.02" relfrom="QUADR_B1.01" >
+<element=rbending name="MBEND_B2.02" relfrom="QUADR_B2.01" >
+<element=rbending name="MBEND_B3.02" relfrom="QUADR_B3.01" >
+<element=rbending name="MBEND_B4.02" relfrom="QUADR_B4.01" >
+
+<template=powersupply virtual= false >
+
+<element=powersupply name="PBEND_B.01" >

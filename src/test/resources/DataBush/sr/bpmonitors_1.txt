@@ -1,0 +1,34 @@
+<template=bpm virtual= false >
+
+<element=bpm name="DBPM_S1.01" position=-1.0 relposition=99.695 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.02" position=-1.0 relposition=102.6 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.03" position=-1.0 relposition=104.988 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.04" position=-1.0 relposition=107.703 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.05" position=-1.0 relposition=1.411 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.06" position=-1.0 relposition=4.316 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.07" position=-1.0 relposition=6.704 relfrom="inj_point" >
+<element=bpm name="DBPM_S1.08" position=-1.0 relposition=9.419 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.01" position=-1.0 relposition=16.895 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.02" position=-1.0 relposition=19.8 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.03" position=-1.0 relposition=22.188 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.04" position=-1.0 relposition=24.903 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.05" position=-1.0 relposition=29.011 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.06" position=-1.0 relposition=31.916 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.07" position=-1.0 relposition=34.304 relfrom="inj_point" >
+<element=bpm name="DBPM_S2.08" position=-1.0 relposition=37.019 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.01" position=-1.0 relposition=44.495 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.02" position=-1.0 relposition=47.4 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.03" position=-1.0 relposition=49.788 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.04" position=-1.0 relposition=52.503 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.05" position=-1.0 relposition=56.611 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.06" position=-1.0 relposition=59.516 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.07" position=-1.0 relposition=61.904 relfrom="inj_point" >
+<element=bpm name="DBPM_S3.08" position=-1.0 relposition=64.619 relfrom="inj_point" >
+<element=bpm name="DBPM_S4.01" position=-1.0 relposition=72.095 relfrom="inj_point" >
+//<element=bpm name="DBPM_S4.02" position=-1.0 relposition=75.0 relfrom="inj_point" >
+<element=bpm name="DBPM_S4.03" position=-1.0 relposition=77.388 relfrom="inj_point" >
+//<element=bpm name="DBPM_S4.04" position=-1.0 relposition=80.103 relfrom="inj_point" >
+<element=bpm name="DBPM_S4.05" position=-1.0 relposition=84.211 relfrom="inj_point" >
+<element=bpm name="DBPM_S4.06" position=-1.0 relposition=87.116 relfrom="inj_point" >
+<element=bpm name="DBPM_S4.07" position=-1.0 relposition=89.504 relfrom="inj_point" >
+<element=bpm name="DBPM_S4.08" position=-1.0 relposition=92.219 relfrom="inj_point" >
