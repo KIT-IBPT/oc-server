@@ -1,0 +1,13 @@
+org.scictrl.mp.orbitcorrect
+org.scictrl.mp.orbitcorrect.accessories
+org.scictrl.mp.orbitcorrect.correction
+org.scictrl.mp.orbitcorrect.correction.automatic
+org.scictrl.mp.orbitcorrect.correction.models
+org.scictrl.mp.orbitcorrect.epics
+org.scictrl.mp.orbitcorrect.math
+org.scictrl.mp.orbitcorrect.model
+org.scictrl.mp.orbitcorrect.model.optics
+org.scictrl.mp.orbitcorrect.mvc
+org.scictrl.mp.orbitcorrect.server
+org.scictrl.mp.orbitcorrect.server.app
+org.scictrl.mp.orbitcorrect.utilities
