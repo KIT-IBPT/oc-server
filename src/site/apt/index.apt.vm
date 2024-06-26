@@ -48,50 +48,154 @@
   * <<<sh>>> - contains Linux scripts for running servers, there are several OC ser er instances with own configuration
 
 
-* {Startup Script}
-
-  The application servers finds resources located within the distribution bundle trough runtime configuration in the startup scripts.
-
-  The alarm server for example is started by <<<sh/AlarmServer.sh>>> script. 
-  The script makes three important declarations
+===
   
-  * <<<export AS_NAME="AlarmServer">>> - this tells what should be the name of log file. It must be declared before main initialization happens.
-  
-  * <<<. "$(dirname "$0")/_init.sh">>> - call to the main bundle initialization script which sets up runtime environment variables, 
-    such as Java JRE and classpath.
-    
-  * <<<$AS_JAVA -classpath $AS_CLASSPATH -Dlog4j.debug=false -DAppServer.init=AppServer-alarms.properties org.scictrl.csshell.epics.server.Server>>> 
-    - this line starts the server
+{OrbitCorrection Remote API}
 
-  The startup line contains following elements:
+  The remote functionality of the OrbitCorretion Server is accessible in form of EPICS PV channels.
 
-  * <<<$AS_JAVA>>> - is java executable as defined in the <<<_init.sh>>> script, 
-  
-  * <<<$AS_CLASSPATH>>> - is classpath as defined in the <<<_init.sh>>> script,
-  
-  * <<<-DAppServer.init=AppServer-alarms.properties>>> - is name of properties file, which defines initialization properties for the server.
+  Different OC instances have different prefixes:
 
-* {The Application Server Initialization Configuration}
+
+*--+--+--+
+|| OC Instance || PV Prefix || Description ||
+*--+--+--+
+| FastOC | A:SR:OrbitCorrection:01: | This instance of OrbitCorrection server is intended for daily use in operation, it is optimized for performing fast OC loop. |
+*--+--+--+
+| CustomOC | A:SR:OrbitCorrection:02: | This instance of OrbitCorrection server is intended for experienced operator to perform custom orbit corrections. |
+*--+--+--+
+| TestOC | A:SR:OrbitCorrection:03: | This instance of OrbitCorrection server is used for testing. |
+*--+--+--+
+
+  The PV suffixes are same for PV all that are listed below.
+
+  These PV strings are defined in class {{{./apidocs/org/scictrl/mp/orbitcorrect/server/app/AbstractOCAppServer.html}org.scictrl.mp.orbitcorrect.server.app.AbstractOCAppServer}}  
 
   
+===
+  
+* {Operation PVs}
+
+  Operation PVs are used to run the OC server and monitor it's operation status.
+
+*--+--+--+
+|| PV Suffix                || Data Type || Description ||
+*--+--+--+
+| <<<Cmd:StartSingleStep>>> | byte | Command to execute one correction step in H and one in V plane. |
+*--+--+--+
+| <<<Cmd:StartSingleLoop>>> | byte | Command to execute correction steps in H and in V plane until correction improvements fall below threshold. |
+*--+--+--+
+| <<<Cmd:StartContinuous>>> | byte | Command to execute correction steps continuously until stop or abort or it is abnormally interrupted. |
+*--+--+--+
+| <<<Cmd:CalcCorr>>>        | byte | Command to calculate correction, result is displayed but not applied. |
+*--+--+--+
+| <<<Cmd:Stop>>>            | byte | Command to stop, it lets current step to finish. |
+*--+--+--+
+| <<<Cmd:Abort>>>           | byte | Command to abort, it interrupts whatever OC is doing. |
+*--+--+--+
+| <<<Cmd:Undo>>>            | byte | Command to undo last step. |
+*--+--+--+
+| <<<Cmd:TestAll>>>         | byte | Command to test all connected elements if they are ready for operation. |
+*--+--+--+
+| <<<Info:ID>>>             | String | ID string which identifies in semaphore which instance is accessing beam. |
+*--+--+--+
+| <<<Status:AutoMode>>>     | byte | Status indicator, when 1 means that OC server is in continuous correction mode. |
+*--+--+--+
+| <<<Status:ConfigRemote>>> | byte | Status indicator, if 1 means that OC server is allowed to be configured remotely trough API. If 0, configuration PVs are only readable. |
+*--+--+--+
+| <<<Status:Correcting>>>   | byte | Status indicator, when 1 means that OC server is actively correcting the orbit and changing corrector magnets. It is 0 when magnets are not being changed, also in continuous mode. |
+*--+--+--+
+| <<<Status:ErrorSum>>>     | byte | Error summary bit. |
+*--+--+--+
+| <<<Status:LinkError>>>, <<<Status:LinkError:String>>> | byte, String | Error bit is 1 when connection to remote PV fails. |
+*--+--+--+
+| <<<Status:Log>>>          | String | Status indicator which provides last log message. |
+*--+--+--+
+| <<<Status:Message>>>      | String | Status indicator which provides string message to the status. |
+*--+--+--+
+| <<<Status:State>>>        | enum | Status indicator which provides current status enum. |
+*--+--+--+
+
+===
+
+* {Configuration PVs}
+
+  Configuration PVs are used to select correctors or BPMs and configure correction parameters.
+
+*--+--+--+
+|| PV Suffix                 || Data Type || Description ||
+*--+--+--+
+| <<<Cmd:BPMsH:SelectAll>>>, <<<Cmd:BPMsV:SelectAll>>>, <<<Cmd:BPMsH:SelectNone>>>, <<<Cmd:BPMsV:SelectNone>>> | byte | Commands for selection of used BPM elements in H and V plane. |
+*--+--+--+
+| <<<Cmd:CorrH:SelectAll>>>, <<<Cmd:CorrV:SelectAll>>>, <<<Cmd:CorrH:SelectNone>>>, <<<Cmd:CorrV:SelectNone>>> | byte | Commands for selection of used Corrector magnet elements in H and V plane. | 
+*--+--+--+
+| <<<Control:BPMs:Names>>> | String array | Configuration parameter with array of available BPM names. |
+*--+--+--+
+| <<<Control:BPMs:Pos>>> | double array | Position data of the BPMs. |
+*--+--+--+
+| <<<Control:BPMsH:Sel>>>, <<<Control:BPMsV:Sel>>> | byte array | Configuration parameter with array of bytes, where 0 or 1 indicates if corresponding element is selected for use. |
+*--+--+--+
+| <<<Control:CorrH:Names>>>, <<<Control:CorrV:Names>>> | String array | Configuration parameter with array of available Corrector names in H and V plane. |
+*--+--+--+
+| <<<Control:CorrH:Sel>>>, <<<Control:CorrV:Sel>>> | byte array | Configuration parameter with array of bytes, where 0 or 1 indicates if corresponding element is selected for use. |
+*--+--+--+
+| <<<Control:CorrH:Pos>>>, <<<Control:CorrV:Pos>>> | double array | Position data of correctors. |
+*--+--+--+
+| <<<Control:CorrectH>>>, <<<Control:CorrectV>>> | byte | Configuration parameter where 0 ore 1 tells OC to enable correction in H or V plane. |
+*--+--+--+
+| <<<Control:MaxStepH>>>, <<<Control:MaxStepV>>> | double | Configuration parameter which defines maximal allowed corrector change per one correction step in H or V plane. Calculated correction is applied in more steps, if correction values are higher than this. |
+*--+--+--+
+| <<<Control:MinEigenvalH>>>, <<<Control:MinEigenvalV>>> | double | Minimal allowed eigenvalue threshold to be used in correction. |
+*--+--+--+
+| <<<Control:Optic:Names>>> | String array | Configuration parameter with array of available optical element names.
+*--+--+--+
+| <<<Control:Optic:Pos>>> | double array | Position data of optical elements. |
+*--+--+--+
+| <<<Control:Scale>>> | double | Configuration parameter which defines a scale factor for which calculated correction is reduced before applied. Scale 1.0 means there is no reduction. Value 0.5 is usually a good one. |
+*--+--+--+
+| <<<Control:ModelH>>>, <<<Control:ModelV>>> | enum | Configuration parameter with list of available correction methods, from user can select, in H or V plane. |
+*--+--+--+
+
+
+===
+
+* {Data Model PVs}
+
+  Data model PVS shows results from linear optics and other calculations.
+
+*--+--+--+
+|| PV Suffix                 || Data Type || Description ||
+*--+--+--+
+| <<<Cmd:DumpData>>>     | byte | Dumps all available linear optics model and correction data to a file on server for debugging. Created file name is revealed in logs and status update. |
+*--+--+--+
+| <<<Control:DataEnabled>>> | byte | Enables (if 1) automatic debug data dump to a file for debugging each time new closed orbit calculation is available. Created file name is revealed in logs and status update. |
+*--+--+--+
+| <<<Data:AlphaH>>>, <<<Data:AlphaV>>> | double | Circular solution for Alpha, in H and V plane, same values as in QBAD. |
+*--+--+--+
+| <<<Data:BetaH>>>, <<<Data:BetaV>>> | double | Circular solution for Beta, in H and V plane, same values as in QBAD. |
+*--+--+--+
+| <<<Data:Dispersion>>>, <<<Data:DispersionDP>>> | double | Dispersion, d and dp, same values as in QBAD. |
+*--+--+--+
+| <<<Data:EigenvalH>>>, <<<Data:EigenvalV>>> | double array | Last calculated eigenvalues for all correctors. RF frequency generator my count as last corrector. |
+*--+--+--+
+| <<<Data:EigenvalUsedH>>>, <<<Data:EigenvalUsedV>>> | int | Number of used calculated eigenvectors in last correction. |
+*--+--+--+
+| <<<Data:Energy>>> | double | Energy in GeV as used in linear optics model. Depending on configuration uses own calibration method. |
+*--+--+--+
+| <<<Data:QBAD>>> | double array | Total Q (tune, H and V, [0][1]), circular solution Beta (H and V, [2][3]), circular solution Alpha (H and V, [4][5]) and Dispersion (d and dp, [6][7]) |
+*--+--+--+
+| <<<Data:TuneH>>>, <<<Data:TuneV>>> | double | Tune, total Q, in H and V plane, same value as in QBAD. |
+*--+--+--+
+
     
 ===
 
-{Glossary of Terms}
+{Reference documentation}
 
-*--+--+
-|| Term || Description ||
-*--+--+
-| CA  | Channel Access protocol, part of EPICS |
-*--+--+
-| CAS | Java implementation of CA protocol on server side |
-*--+--+
-| CSS BEAST | Control system studio implementation of EPICS archiver called BEAST |
-*--+--+
-| OC  | short for Orbit Correction, which is an algorithm that calculates change of corrector magnets in order to improve electron beam orbit. |
-*--+--+
-| JCA | Java implementation of CA protocol on client side |
-*--+--+
-
-
+  * OrbitCorrection at KARA, IBPT presentation: {{{./doc/OCinKARA.pdf}OCinKARA.pdf}}
   
+  * Orbit Correction with Frequency IN Java, PCAPAC2002 , {{{http://www.lnf.infn.it/conference/pcapac2002/TALK/TU-P13/TU-P13.pdf}TU-P13.pdf}}
+  
+  * Closed Orbit Correction Using Singular Value Decomposition of the Response Matrix, PAC1993, {{{https://accelconf.web.cern.ch/p93/PDF/PAC1993_2263.PDF}PAC1993_2263.PDF}}
+
+
